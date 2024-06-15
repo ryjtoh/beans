@@ -21,6 +21,7 @@ Spring Context: A specific implementation of the IoC container in Spring, repres
 - By default, creates a singleton Spring Bean managed by the IoC container
 - Defined at the method level
 - The class that contains methods with @Bean requires a @Configuration annotation
+- Usually used when you are using a third-party library for data source or need custom initialization logic.
 
 ## @Component
 - By default, creates a singleton Spring Bean managed by the IoC container
